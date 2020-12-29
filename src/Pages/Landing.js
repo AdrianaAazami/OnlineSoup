@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
-import CarouselMenu from '../components/CarouselMenu';
+import CarouselMenu from '../components/Carousel/CarouselMenu';
 
 import Ramen from '../images/ramensoup.svg';
 import soupSoup from '../images/soupsoup.svg';
@@ -12,7 +12,9 @@ import seaSoup from '../images/seasoup.svg';
 import yellowSoup from '../images/yellowsoup.svg';
 import lastSoup from '../images/lastsoup.svg';
 
-
+function RedirectPage(page) {
+    window.location.href = "/" + page
+}
 
 function Landing() {
     return (
@@ -25,13 +27,13 @@ function Landing() {
                 <img src={Ramen} />
                 <p>Spicy noodle soup with chicken <br /> topped with koriander</p>
                 {/*  <a href="#" class="myButton">light orange</a> */}
-                <button className="myButton">Take me home!</button>
+                <button onClick={() => RedirectPage("soup")} className="myButton">Take me home!</button>
             </div>
             <div className="container">
                 <h2>Minnestrone Soup</h2>
                 <img src={soupSoup} />
                 <p>Minnestrone soup with freshly cut vegetables and pasta <br /> topped with parmesan cheese</p>
-                <button className="myButton">Take me home!</button>
+                <button onClick={() => RedirectPage("landing")} className="myButton">Take me home!</button>
             </div>
             <div className="container">
                 <h2>Broccoli Soup</h2>

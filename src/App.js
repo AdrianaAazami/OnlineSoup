@@ -32,6 +32,7 @@ function App() {
         </div>
         <div>
           <Router>
+            <Route path="/intro" exact component={Intro} />
             <Route path="/" exact component={Intro} />
             <Route path="/landing" component={Landing} />
             <Route path="/soup" component={Soup} />

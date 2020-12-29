@@ -1,7 +1,5 @@
 import React from "react";
 
-/* import Carousel from "../components/Carousel"
-*/
 import logo from '../images/logo.svg';
 import backGround from '../images/backGround.svg';
 import facebook from "../images/facebook.svg";
@@ -9,7 +7,7 @@ import firstSoup from "../images/firstSoup.svg"
 import sickMan from "../images/sickMan.svg";
 import soupCar from "../images/soupCar.svg"
 
-import Carousel from "../components/Carousel.js";
+import Carousel from "../components/Carousel/Carousel.js";
 
 
 
