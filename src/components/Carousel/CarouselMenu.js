@@ -6,7 +6,7 @@ import dealSoup3 from "../../images/dealSoup3.svg";
 
 class CarouselMenu extends React.Component {
     render() {
-        return <div className="container" style={{ width: "auto", height: "auto", marginTop: "1000px" }}>
+        return <div className="container" style={{ width: "auto", height: "auto", marginTop: "330rem" }}>
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 {/* <!-- Indicators --> */}
                 <ol className="carousel-indicators">
@@ -21,21 +21,18 @@ class CarouselMenu extends React.Component {
                         <img src={dealSoup1} alt="Los Angeles" style={{ width: "100%" }} />
                         <div className="carousel-caption">
                         </div>
-                        <h3 style={{ color: "#FFA702" }}>Craving a soup?</h3>
                     </div>
 
                     <div className="item">
                         <img src={dealSoup2} alt="Chicago" style={{ width: "100%" }} />
                         <div className="carousel-caption">
                         </div>
-                        <h3 style={{ color: "#FFA702" }}>Having a friend in need of a boost?</h3>
                     </div>
 
                     <div className="item">
                         <img src={dealSoup3} alt="New York" style={{ width: "100%" }} />
                         <div className="carousel-caption">
                         </div>
-                        <h3 style={{ color: "#FFA702" }}>We deliver the soup!</h3>
                     </div>
 
                 </div>

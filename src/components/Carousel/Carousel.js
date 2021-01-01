@@ -18,21 +18,21 @@ class Carousel extends React.Component {
                 {/* <!-- Wrapper for slides --> */}
                 <div className="carousel-inner">
                     <div className="item active">
-                        <img src={firstSoup} alt="Los Angeles" style={{ width: "100%" }} />
+                        <img src={firstSoup} alt="Soup" style={{ width: "100%" }} />
                         <div className="carousel-caption">
                         </div>
                         <h3 style={{ color: "#FFA702" }}>Craving a soup?</h3>
                     </div>
 
                     <div className="item">
-                        <img src={sickMan} alt="Chicago" style={{ width: "100%" }} />
+                        <img src={sickMan} alt="Sick man" style={{ width: "100%" }} />
                         <div className="carousel-caption">
                         </div>
                         <h3 style={{ color: "#FFA702" }}>Having a friend in need of a boost?</h3>
                     </div>
 
                     <div className="item">
-                        <img src={soupCar} alt="New York" style={{ width: "100%" }} />
+                        <img src={soupCar} alt="Soup Truck" style={{ width: "100%", backgroundSize: "100%", backgroundPosition: "" }} />
                         <div className="carousel-caption">
                         </div>
                         <h3 style={{ color: "#FFA702" }}>We deliver the soup!</h3>
